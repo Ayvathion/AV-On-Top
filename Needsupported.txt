@@ -1,0 +1,80 @@
+Core Lua Functionality:
+- getgenv
+- getrenv
+- getfenv
+- setfenv
+- getrawmetatable
+- setrawmetatable
+- getgc
+- getupvalues
+- setupvalue
+- getconstants
+- setconstant
+- getinfo
+- hookfunction
+- hookmetamethod
+- newcclosure
+- islclosure
+- iscclosure
+- checkcaller
+
+File System API:
+- writefile
+- readfile
+- appendfile
+- delfile
+- isfile
+- isfolder
+- makefolder
+- listfiles
+
+Asset & UI Handling:
+- getcustomasset
+- getsynasset
+- syn.protect_gui
+- syn.unprotect_gui
+- syn.protect_instance
+- gethui
+- getnilinstances
+- getinstances
+- Full support for SurfaceGui, BillboardGui, VideoFrame, etc.
+
+Debug & Decompilation:
+- debug.getupvalue
+- debug.setupvalue
+- debug.getinfo
+- debug.getregistry
+- debug.traceback
+- debug.setmetatable
+- decompile
+
+Security / Executor Features:
+- identifyexecutor
+- setclipboard
+- tocLipboard
+- setidentity
+- getidentity
+- queue_on_teleport
+- request
+- getconnections
+
+Input & Simulation:
+- mouse1click
+- mouse1press
+- mouse1release
+- mouse2click
+- keypress
+- keyrelease
+- setsimulationradius
+- fireclickdetector
+- firetouchinterest
+- fireproximityprompt
+- firesignal
+
+Other Advanced Features:
+- syn.request (or compatible replacement)
+- syn.websocket_connect
+- isexecutorclosure
+- is_synapse_function (if needed for compatibility)
+- Compatibility with popular UI libraries (Rayfield, Orion, etc.)
+- Loadstring support with environment isolation
