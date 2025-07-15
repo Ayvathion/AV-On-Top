@@ -46,13 +46,12 @@ x_799v0rk.AutomaticSize = Enum.AutomaticSize.Y
 
 local x_799yqq7 = Instance.new("TextButton", x_799u3pj)
 x_799yqq7.Size = UDim2.new(0, 160, 0, 40)
-x_799yqq7.Position = UDim2.new(1, -180, 1, -60)
+x_799yqq7.Position = UDim2.new(0, 20, 1, -60)
 x_799yqq7.Text = "Join Discord"
 x_799yqq7.TextColor3 = Color3.fromRGB(255, 255, 255)
 x_799yqq7.TextSize = 20
 x_799yqq7.Font = Enum.Font.GothamBold
 x_799yqq7.BackgroundColor3 = Color3.fromRGB(0, 120, 255)
-
 Instance.new("UICorner", x_799yqq7).CornerRadius = UDim.new(0, 10)
 
 local x_799wff0 = Instance.new("UIGradient", x_799yqq7)
@@ -80,4 +79,15 @@ x_799yqq7.MouseButton1Click:Connect(function()
 	tween:Play()
 	tween.Completed:Wait()
 	x_799gxu9:Destroy()
+end)
+
+-- :/ | discord.gg/ujNaJUsdUh 
+local x_799copyBtn = x_799yqq7:Clone()
+x_799copyBtn.Text = "Copy New Loader"
+x_799copyBtn.Position = UDim2.new(1, -180, 1, -60)
+x_799copyBtn.Parent = x_799u3pj
+
+x_799copyBtn.MouseButton1Click:Connect(function()
+	setclipboard([[getgenv().Translator = ""
+loadstring(game:HttpGet("https://get-avth-ontop.netlify.app/my-paste/script.lua"))()]])
 end)
