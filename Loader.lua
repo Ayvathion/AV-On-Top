@@ -62,7 +62,7 @@ x_799wff0.Color = ColorSequence.new{
 x_799wff0.Rotation = 45
 
 x_799yqq7.MouseButton1Click:Connect(function()
-	setclipboard("discord.gg/ujNaJUsdUh")
+	setclipboard("https://discord.gg/mmnHdJECFv")
 
 	local tween = x_799pt7g:Create(x_799u3pj, TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
 		Size = UDim2.new(0, 0, 0, 0),
